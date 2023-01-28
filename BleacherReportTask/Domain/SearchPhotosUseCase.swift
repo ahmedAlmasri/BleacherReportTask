@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+struct SearchPhotosUseCase {
+    
+    let repository: PhotosRepository
+    
+    init(repository: PhotosRepository = PhotosRepositoryImpt()) {
+        self.repository = repository
+    }
+    
+    func call(keyword: String, page: UInt) async throws -> PhotoDtoList {
+        
+        try await repository.search(query: .init(perPage: 50, page: page, text: keyword))
+            .toPhotoDtoList
+    }
+}

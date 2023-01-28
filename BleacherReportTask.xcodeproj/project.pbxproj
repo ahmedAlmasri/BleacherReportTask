@@ -14,6 +14,17 @@
 		66F0D7A429850B8C00C74AA1 /* BleacherReportTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7A329850B8C00C74AA1 /* BleacherReportTaskTests.swift */; };
 		66F0D7AE29850B8C00C74AA1 /* BleacherReportTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7AD29850B8C00C74AA1 /* BleacherReportTaskUITests.swift */; };
 		66F0D7B029850B8C00C74AA1 /* BleacherReportTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7AF29850B8C00C74AA1 /* BleacherReportTaskUITestsLaunchTests.swift */; };
+		66F0D7C02985158100C74AA1 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 66F0D7BF2985158100C74AA1 /* Networking */; };
+		66F0D7C4298536AC00C74AA1 /* SearchDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7C3298536AC00C74AA1 /* SearchDataSource.swift */; };
+		66F0D7C829853F6E00C74AA1 /* SearchPhotosUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7C729853F6E00C74AA1 /* SearchPhotosUseCase.swift */; };
+		66F0D7CA29854A2A00C74AA1 /* PhotosRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7C929854A2A00C74AA1 /* PhotosRepository.swift */; };
+		66F0D7CC29854A4000C74AA1 /* SearchPhotosEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7CB29854A4000C74AA1 /* SearchPhotosEndpoint.swift */; };
+		66F0D7CE29854A5400C74AA1 /* AppEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7CD29854A5400C74AA1 /* AppEndpoint.swift */; };
+		66F0D7D229854A9100C74AA1 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7D129854A9100C74AA1 /* SearchQuery.swift */; };
+		66F0D7D529854AAA00C74AA1 /* PhotosResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7D429854AAA00C74AA1 /* PhotosResponse.swift */; };
+		66F0D7D829854B2300C74AA1 /* PhotoDtoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7D729854B2300C74AA1 /* PhotoDtoList.swift */; };
+		66F0D7DA29854B3000C74AA1 /* PageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7D929854B3000C74AA1 /* PageInfo.swift */; };
+		66F0D7DD29854B8800C74AA1 /* PhotosResponse+Dto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D7DC29854B8800C74AA1 /* PhotosResponse+Dto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +56,16 @@
 		66F0D7AD29850B8C00C74AA1 /* BleacherReportTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskUITests.swift; sourceTree = "<group>"; };
 		66F0D7AF29850B8C00C74AA1 /* BleacherReportTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		66F0D7BD29850D5800C74AA1 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		66F0D7C3298536AC00C74AA1 /* SearchDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDataSource.swift; sourceTree = "<group>"; };
+		66F0D7C729853F6E00C74AA1 /* SearchPhotosUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosUseCase.swift; sourceTree = "<group>"; };
+		66F0D7C929854A2A00C74AA1 /* PhotosRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosRepository.swift; sourceTree = "<group>"; };
+		66F0D7CB29854A4000C74AA1 /* SearchPhotosEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotosEndpoint.swift; sourceTree = "<group>"; };
+		66F0D7CD29854A5400C74AA1 /* AppEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEndpoint.swift; sourceTree = "<group>"; };
+		66F0D7D129854A9100C74AA1 /* SearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuery.swift; sourceTree = "<group>"; };
+		66F0D7D429854AAA00C74AA1 /* PhotosResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosResponse.swift; sourceTree = "<group>"; };
+		66F0D7D729854B2300C74AA1 /* PhotoDtoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDtoList.swift; sourceTree = "<group>"; };
+		66F0D7D929854B3000C74AA1 /* PageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInfo.swift; sourceTree = "<group>"; };
+		66F0D7DC29854B8800C74AA1 /* PhotosResponse+Dto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosResponse+Dto.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F0D7C02985158100C74AA1 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +102,7 @@
 				66F0D7A229850B8C00C74AA1 /* BleacherReportTaskTests */,
 				66F0D7AC29850B8C00C74AA1 /* BleacherReportTaskUITests */,
 				66F0D79029850B8A00C74AA1 /* Products */,
+				66F0D7BE2985158100C74AA1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,8 +119,10 @@
 		66F0D79129850B8A00C74AA1 /* BleacherReportTask */ = {
 			isa = PBXGroup;
 			children = (
-				66F0D79229850B8A00C74AA1 /* BleacherReportTaskApp.swift */,
+				66F0D7C22985368200C74AA1 /* DataAccess */,
+				66F0D7C529853F4500C74AA1 /* Domain */,
 				66F0D79429850B8A00C74AA1 /* ContentView.swift */,
+				66F0D79229850B8A00C74AA1 /* BleacherReportTaskApp.swift */,
 				66F0D79629850B8C00C74AA1 /* Assets.xcassets */,
 				66F0D79829850B8C00C74AA1 /* Preview Content */,
 			);
@@ -137,6 +162,77 @@
 			name = Packages;
 			sourceTree = "<group>";
 		};
+		66F0D7BE2985158100C74AA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F0D7C22985368200C74AA1 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7CF29854A7D00C74AA1 /* Models */,
+				66F0D7C3298536AC00C74AA1 /* SearchDataSource.swift */,
+				66F0D7C929854A2A00C74AA1 /* PhotosRepository.swift */,
+				66F0D7CB29854A4000C74AA1 /* SearchPhotosEndpoint.swift */,
+				66F0D7CD29854A5400C74AA1 /* AppEndpoint.swift */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		66F0D7C529853F4500C74AA1 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7DB29854B3F00C74AA1 /* DTOMapper */,
+				66F0D7D629854B1300C74AA1 /* DTOs */,
+				66F0D7C729853F6E00C74AA1 /* SearchPhotosUseCase.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		66F0D7CF29854A7D00C74AA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7D329854A9F00C74AA1 /* Response */,
+				66F0D7D029854A8500C74AA1 /* Request */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		66F0D7D029854A8500C74AA1 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7D129854A9100C74AA1 /* SearchQuery.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		66F0D7D329854A9F00C74AA1 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7D429854AAA00C74AA1 /* PhotosResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		66F0D7D629854B1300C74AA1 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7D729854B2300C74AA1 /* PhotoDtoList.swift */,
+				66F0D7D929854B3000C74AA1 /* PageInfo.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		66F0D7DB29854B3F00C74AA1 /* DTOMapper */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7DC29854B8800C74AA1 /* PhotosResponse+Dto.swift */,
+			);
+			path = DTOMapper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -153,6 +249,9 @@
 			dependencies = (
 			);
 			name = BleacherReportTask;
+			packageProductDependencies = (
+				66F0D7BF2985158100C74AA1 /* Networking */,
+			);
 			productName = BleacherReportTask;
 			productReference = 66F0D78F29850B8A00C74AA1 /* BleacherReportTask.app */;
 			productType = "com.apple.product-type.application";
@@ -267,6 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F0D7DA29854B3000C74AA1 /* PageInfo.swift in Sources */,
+				66F0D7DD29854B8800C74AA1 /* PhotosResponse+Dto.swift in Sources */,
+				66F0D7D229854A9100C74AA1 /* SearchQuery.swift in Sources */,
+				66F0D7C829853F6E00C74AA1 /* SearchPhotosUseCase.swift in Sources */,
+				66F0D7D829854B2300C74AA1 /* PhotoDtoList.swift in Sources */,
+				66F0D7CC29854A4000C74AA1 /* SearchPhotosEndpoint.swift in Sources */,
+				66F0D7D529854AAA00C74AA1 /* PhotosResponse.swift in Sources */,
+				66F0D7C4298536AC00C74AA1 /* SearchDataSource.swift in Sources */,
+				66F0D7CA29854A2A00C74AA1 /* PhotosRepository.swift in Sources */,
+				66F0D7CE29854A5400C74AA1 /* AppEndpoint.swift in Sources */,
 				66F0D79529850B8A00C74AA1 /* ContentView.swift in Sources */,
 				66F0D79329850B8A00C74AA1 /* BleacherReportTaskApp.swift in Sources */,
 			);
@@ -355,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -409,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -434,6 +543,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +572,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -587,6 +698,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		66F0D7BF2985158100C74AA1 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 66F0D78729850B8A00C74AA1 /* Project object */;
 }
