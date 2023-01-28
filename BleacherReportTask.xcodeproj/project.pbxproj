@@ -44,6 +44,7 @@
 		66F0D7A929850B8C00C74AA1 /* BleacherReportTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BleacherReportTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0D7AD29850B8C00C74AA1 /* BleacherReportTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskUITests.swift; sourceTree = "<group>"; };
 		66F0D7AF29850B8C00C74AA1 /* BleacherReportTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66F0D7BD29850D5800C74AA1 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		66F0D78629850B8A00C74AA1 = {
 			isa = PBXGroup;
 			children = (
+				66F0D7BC29850D5800C74AA1 /* Packages */,
 				66F0D79129850B8A00C74AA1 /* BleacherReportTask */,
 				66F0D7A229850B8C00C74AA1 /* BleacherReportTaskTests */,
 				66F0D7AC29850B8C00C74AA1 /* BleacherReportTaskUITests */,
@@ -125,6 +127,14 @@
 				66F0D7AF29850B8C00C74AA1 /* BleacherReportTaskUITestsLaunchTests.swift */,
 			);
 			path = BleacherReportTaskUITests;
+			sourceTree = "<group>";
+		};
+		66F0D7BC29850D5800C74AA1 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				66F0D7BD29850D5800C74AA1 /* Networking */,
+			);
+			name = Packages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
