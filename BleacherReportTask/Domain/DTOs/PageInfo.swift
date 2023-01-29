@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PageInfo {
+struct PageInfo: Equatable {
     let currentPage: UInt
     let totalPages: UInt
 }

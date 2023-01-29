@@ -11,14 +11,18 @@ protocol PhotosRepository {
     func search(query: SearchQuery) async throws -> PhotosResponse
 }
 
-struct PhotosRepositoryImpt: PhotosRepository {
-    let dataSource: PhotosDataSource
+struct PhotosRepositoryImpl: PhotosRepository {
+    private let dataSource: PhotosDataSource
     
-    init(dataSource: PhotosDataSource = PhotosDataSourceImpt()) {
+    init(dataSource: PhotosDataSource = PhotosDataSourceImpl()) {
         self.dataSource = dataSource
     }
     
     func search(query: SearchQuery) async throws -> PhotosResponse {
-        try await dataSource.search(query: query)
+        do {
+            return try await dataSource.search(query: query)
+        } catch {
+            throw RequestErrorMapper(error: error)
+        }
     }
 }

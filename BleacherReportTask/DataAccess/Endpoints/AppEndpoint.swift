@@ -10,6 +10,10 @@ import Networking
 
 extension Endpoint {
     func baseURL() throws -> URL {
-        URL(string: "https://www.flickr.com")!
+        guard let url = URL(string: URLs.apiUrl) else {
+            throw RequestError.invalidURL
+        }
+        
+        return url
     }
 }

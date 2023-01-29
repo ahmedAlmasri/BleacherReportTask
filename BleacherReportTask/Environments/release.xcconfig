@@ -1,0 +1,11 @@
+//
+//  release.xcconfig
+//  BleacherReportTask
+//
+//  Created by Ahmad Almasri on 29/01/2023.
+//
+
+SCHEME = https
+HOST = www.flickr.com
+API_URL = $(SCHEME):/$()/$(HOST)
+IMAGES_URL = $(SCHEME):/$()/farm%d.static.flickr.com/%@/%@_%@_%@.jpg

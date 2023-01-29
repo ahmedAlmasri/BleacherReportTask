@@ -36,6 +36,10 @@ public final class HttpClient: Networkable {
     
     public func request<T>(endpoint: Endpoint, decoder: JSONDecoder = .default) async throws -> T where T : Decodable {
         let response = try await request(endpoint: endpoint)
-        return try decoder.decode(T.self, from: response.body)
+        do {
+            return try decoder.decode(T.self, from: response.body)
+        } catch {
+            throw RequestError.decodingError(error, response.body, response.urlResponse)
+        }
     }
 }

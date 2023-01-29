@@ -10,13 +10,29 @@ import Foundation
 extension PhotosResponse {
     
     var toPhotoDtoList: PhotoDtoList {
-        let photos = self.photos.photo.map({
-            let url = "https://farm\($0.farm).static.flickr.com/\($0.server)/\($0.id)_\($0.secret)_w.jpg"
-            let largeUrl = "https://farm\($0.farm).static.flickr.com/\($0.server)/\($0.id)_\($0.secret)_b.jpg"
-            return PhotoDtoList.PhotoDto.init(smallUrl: URL(string: url), largeUrl: URL(string: largeUrl), title: $0.title)
-        })
+        let photos = self.photos.photo.map {
+            PhotoDtoList.PhotoDto(
+                id: $0.id,
+                smallUrl: $0.toImageUrl(ofSize: .small),
+                largeUrl: $0.toImageUrl(ofSize: .large),
+                title: $0.title
+            )
+        }
         
-        return .init(pageInfo: .init(currentPage: UInt(self.photos.page), totalPages: self.photos.pages),
-                     photos: photos)
+        return PhotoDtoList(
+            pageInfo: PageInfo(currentPage: UInt(self.photos.page), totalPages: self.photos.pages),
+            photos: photos
+        )
+    }
+}
+
+fileprivate extension PhotosResponse.ResponseBody.Photo {
+    enum ImageSize: String {
+        case small = "w"
+        case large = "b"
+    }
+    
+    func toImageUrl(ofSize size: ImageSize) -> URL? {
+        URL(string: String(format: URLs.imagesUrl, farm, server, id, secret, size.rawValue))
     }
 }

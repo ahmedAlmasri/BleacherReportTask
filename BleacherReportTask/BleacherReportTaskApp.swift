@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct BleacherReportTaskApp: App {
+    
+    init() {
+        CacheConfig.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchPhotoScreen()
         }
     }
 }

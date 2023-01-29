@@ -11,4 +11,5 @@ public enum RequestError: LocalizedError {
     case invalidURL
     case noResponse
     case inlineError(Data, HTTPURLResponse)
+    case decodingError(Error, Data, HTTPURLResponse)
 }

@@ -11,14 +11,14 @@ import Foundation
 public enum Request {
     case get(path: String)
     
-    internal var path: String {
+    var path: String {
         switch self {
             case .get(let path):
             return path
         }
     }
     
-    internal var method: String {
+    var method: String {
         switch  self {
         case .get:
             return "GET"
