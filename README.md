@@ -15,8 +15,7 @@
 
 ## Implementation Details
   ### Architecture
- I introduced new things related to clean architecture as following:
-
+ I introduced clean architecture as follows:
    * Domain
    * Data
    * Presentation
