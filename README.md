@@ -28,7 +28,7 @@
  * `Published` for ViewStates
  * `XCConfig` for Environments
  * Basic `Dependency injection` using constructors
- * Use Local `SPM` for networking layer
+ * Local `SPM` for networking layer
 
 
  ### Folder structure
