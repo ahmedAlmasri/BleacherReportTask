@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		66811B032986FEF7003F0F2D /* XCConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66811B022986FEF7003F0F2D /* XCConfig.swift */; };
 		66811B052986FF0B003F0F2D /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66811B042986FF0B003F0F2D /* URLs.swift */; };
+		66811B07298702A8003F0F2D /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66811B06298702A8003F0F2D /* Secrets.swift */; };
 		66F0D79329850B8A00C74AA1 /* BleacherReportTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D79229850B8A00C74AA1 /* BleacherReportTaskApp.swift */; };
 		66F0D79529850B8A00C74AA1 /* SearchPhotoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F0D79429850B8A00C74AA1 /* SearchPhotoScreen.swift */; };
 		66F0D79729850B8C00C74AA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66F0D79629850B8C00C74AA1 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 		66811B012986FECD003F0F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		66811B022986FEF7003F0F2D /* XCConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCConfig.swift; sourceTree = "<group>"; };
 		66811B042986FF0B003F0F2D /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		66811B06298702A8003F0F2D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 		66F0D78F29850B8A00C74AA1 /* BleacherReportTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleacherReportTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0D79229850B8A00C74AA1 /* BleacherReportTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskApp.swift; sourceTree = "<group>"; };
 		66F0D79429850B8A00C74AA1 /* SearchPhotoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoScreen.swift; sourceTree = "<group>"; };
@@ -319,6 +321,7 @@
 				66F0D8062986FB1B00C74AA1 /* release.xcconfig */,
 				66811B022986FEF7003F0F2D /* XCConfig.swift */,
 				66811B042986FF0B003F0F2D /* URLs.swift */,
+				66811B06298702A8003F0F2D /* Secrets.swift */,
 			);
 			path = Environments;
 			sourceTree = "<group>";
@@ -449,6 +452,7 @@
 				66F0D7FF2986EE4400C74AA1 /* CacheConfig.swift in Sources */,
 				66F0D7E629859AEA00C74AA1 /* SearchEmptyView.swift in Sources */,
 				66F0D7D529854AAA00C74AA1 /* PhotosResponse.swift in Sources */,
+				66811B07298702A8003F0F2D /* Secrets.swift in Sources */,
 				66F0D7F42986CDA100C74AA1 /* ImageViewer.swift in Sources */,
 				66F0D7C4298536AC00C74AA1 /* PhotosDataSource.swift in Sources */,
 				66F0D7CA29854A2A00C74AA1 /* PhotosRepository.swift in Sources */,

@@ -23,7 +23,7 @@ enum PhotosEndpoint: Endpoint {
             case let .search(query):
                 return [
                     .init(name: "method", value: "flickr.photos.search"),
-                    .init(name: "api_key", value: "1508443e49213ff84d566777dc211f2a"),
+                    .init(name: "api_key", value: Secrets.flikerAPIKey),
                     .init(name: "format", value: "json"),
                     .init(name: "nojsoncallback", value: "1"),
                     .init(name: "per_page", value: "\(query.perPage)"),
