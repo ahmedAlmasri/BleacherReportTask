@@ -58,6 +58,7 @@
 		66811B022986FEF7003F0F2D /* XCConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCConfig.swift; sourceTree = "<group>"; };
 		66811B042986FF0B003F0F2D /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
 		66811B06298702A8003F0F2D /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
+		66811B08298703D6003F0F2D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		66F0D78F29850B8A00C74AA1 /* BleacherReportTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BleacherReportTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F0D79229850B8A00C74AA1 /* BleacherReportTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleacherReportTaskApp.swift; sourceTree = "<group>"; };
 		66F0D79429850B8A00C74AA1 /* SearchPhotoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPhotoScreen.swift; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 		66F0D78629850B8A00C74AA1 = {
 			isa = PBXGroup;
 			children = (
+				66811B08298703D6003F0F2D /* README.md */,
 				66F0D7BC29850D5800C74AA1 /* Packages */,
 				66F0D79129850B8A00C74AA1 /* BleacherReportTask */,
 				66F0D7A229850B8C00C74AA1 /* BleacherReportTaskTests */,

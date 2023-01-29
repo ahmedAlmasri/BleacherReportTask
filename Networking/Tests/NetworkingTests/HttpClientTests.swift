@@ -56,13 +56,13 @@ final class HttpClientTests: XCTestCase {
             let _: [MockFailureResult] = try await http.request(endpoint:  MockEndPoint.get, decoder: JSONDecoder.default)
             XCTFail("this request should fail with decoding error")
         } catch {
-            guard let error = error as? DecodingError else {
+            guard let error = error as? RequestError else {
                 XCTFail("he error should be DecodingError type")
                 return
             }
             switch error {
-                case let .keyNotFound(key, _):
-                    XCTAssertEqual(key.stringValue, "age")
+                case let .decodingError(error, _, _):
+                    XCTAssertTrue(error is DecodingError)
                 default:
                     XCTFail("he error should be keyNotFound with key name")
             }
